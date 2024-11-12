@@ -1,0 +1,9 @@
+.select-auth {
+    margin:5%;
+    margin-left:40%;
+    display:flex;
+}
+.auth-area {
+    width:75%;
+    margin:0 auto;
+}
