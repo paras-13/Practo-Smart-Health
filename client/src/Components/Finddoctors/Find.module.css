@@ -1,416 +1,335 @@
-
-.main{
-    margin: auto;
-    border: 1px solid  transparent;
-    height: 600px;
-    background-image:url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
+.main {
+  margin: auto;
+  border: 1px solid transparent;
+  height: 600px;
+  background-image: url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
 }
 
-
-.searchbox{
-    margin-left:300px;
+.searchbox {
+  margin-left: 300px;
 }
 .searchLink {
-    margin-left:300px;
-    margin-top:20px;
-    color:grey;
+  margin-left: 300px;
+  margin-top: 20px;
+  color: grey;
 }
 span:hover {
-    color:white;
-    text-decoration:underline;
+  color: white;
+  text-decoration: underline;
 }
-.name1{
-    /* margin-left: 35%; */
-    text-align: center;
-    color: #F0F0F5;
-}
-
-
-h1{
-    color: white;
-    font-size: 45px;
-    margin-top: 2%;
-    font-weight: 600;
+.name1 {
+  /* margin-left: 35%; */
+  text-align: center;
+  color: #f0f0f5;
 }
 
-h4{
-    color: white; 
-    font-weight: 600;
-    margin-top: 2%;
-    font-size: 25px;
-}
-input{
-    margin-top: 1%;
-    /* padding: 13px 20px 10px 200px; */
-    padding: 20px;
-    width: 40%;
+h1 {
+  color: white;
+  font-size: 45px;
+  margin-top: 2%;
+  font-weight: 600;
 }
 
-.down{
-    background-color: #1D2869;
-    height: 70px;
-    width: 100%;
-    margin-top: 25.7%;
+h4 {
+  color: white;
+  font-weight: 600;
+  margin-top: 2%;
+  font-size: 25px;
+}
+input {
+  margin-top: 1%;
+  /* padding: 13px 20px 10px 200px; */
+  padding: 20px;
+  width: 40%;
 }
 
-.another{
+.down {
+  background-color: #1d2869;
+  height: 70px;
+  width: 100%;
+  margin-top: 25.7%;
+}
+
+.another {
+  /* height: 600px; */
+  width: 100%;
+  background-color: #f0f0f5;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  /* border: 1px solid red; */
+  /* width: 33%; */
+  margin-top: 5%;
+  /* margin-right: 5%;
+    margin-top: 5%; */
+}
+.right {
+  /* border: 1px solid red; */
+  /* width: 33%; */
+  height: 400px;
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: start;
+}
+
+.safe {
+  font-size: 40px;
+  font-weight: 500;
+  /* display: inline; */
+  color: #414146;
+  /* line-height: 10%; */
+  justify-content: start;
+}
+.toppri {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: start;
+  margin-bottom: 13%;
+  color: #414146;
+  width: 80%;
+  /* border */
+}
+.left > div {
+  justify-content: start;
+  text-align: start;
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.certi {
+  /* text-align: start; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.inside {
+  width: 40%;
+}
+
+.certi > div {
+  /* width: 7%; */
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #f0f0f5;
+}
+
+.certi > h1 {
+  color: black;
+}
+.c-certificate {
+  width: 20%;
+  height: 20px;
+}
+.c-certificate > img {
+  width: 50%;
+  margin: auto;
+}
+
+.image {
+  width: 50%;
+  margin: auto;
+}
+
+.consult {
+  /* border: 1px solid red; */
+  height: 700px;
+  width: 100%;
+  background-color: #f0f0f5;
+  display: flex;
+}
+
+.left2 {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.right2 {
+  /* border: 1px solid red; */
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 30%;
+}
+
+.right2 > div {
+  justify-content: start;
+  text-align: start;
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.consultnow {
+  /* border: 2px solid red !important; */
+  float: left;
+  background-color: #14bef0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  padding: 4px 50px;
+  margin-top: 7%;
+}
+
+@media (max-width: 480px) {
+  .main {
+    margin: auto;
+    border: 1px solid transparent;
     height: 600px;
-    width: 100%;
-    background-color: #F0F0F5;
-    display: flex;
-    justify-content: center;
-   
-}
+    width: 150%;
+    background-image: url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
+  }
 
-
-.left{
-    /* border: 1px solid red; */
-    /* width: 33%; */
+  .another {
     height: 400px;
-    margin-right: 5%;
-    margin-top: 5%;
-    
-}
-.right{
-    /* border: 1px solid red; */
-    /* width: 33%; */
-    height: 400px;
-    margin-top: 5%;
-    margin-left: 10%;
-    text-align: start;
-}
+    width: 150%;
+    background-color: #f0f0f5;
+    /* display: table-row; */
+    /* justify-content: center; */
+    /* 
+        border: 1px solid red; */
+    text-align: center;
+  }
 
-.safe{
+  .safe {
     font-size: 40px;
     font-weight: 500;
-    /* display: inline; */
+    display: inline;
     color: #414146;
     /* line-height: 10%; */
-    justify-content: start;
-}
-.toppri{
-
-    font-weight: 700;
-    font-size: 40px;
     text-align: start;
-    margin-bottom: 13%;
-    color: #414146;
-    width:80%;
-    /* border */
+  }
 
-}
-.left>div{
-    justify-content: start;
-   text-align: start;
-   margin-top: 5%;
-   font-size: 20px;
-   font-weight: 500;
-}
-.certi{  
+  .certi {
     /* text-align: start; */
     justify-content: center;
     margin: auto;
-    width: 100%;
+    width: 150%;
     display: flex;
-    background-color: #F0F0F5;
-    /* border: 1px solid red; */
+    background-color: #f0f0f5;
+  }
 
-   
-}
-.inside{
-    width: 40%;
-}
-
-.certi>div{
-    width: 7%;
+  .certi > div {
+    width: 150%;
     /* justify-content: center; */
- align-items: center;
- background-color: #F0F0F5;
- 
-}
+    align-items: center;
+    background-color: #f0f0f5;
+  }
 
-.certi >h1{
-    color: black;
-}
-.c-certificate{
-    
-    width: 20%;
-    height: 20px;
-    
-    
-}
-.c-certificate>img{
-    width: 50%;
-    margin: auto;
-
-}
-
-.image{
-
-    width: 50%;
-    margin: auto;
-}
-
-
-.consult{
-    /* border: 1px solid red; */
-    height: 700px;
-    width: 100%;
-    background-color: #F0F0F5;
-    display: flex;
-
-}
-
-
-.left2{
-    margin-left: 30%;
-    margin-top: 5%;
-}
-
-.right2{
-    /* border: 1px solid red; */
-    width: 20%;
-    margin-top: 5%;
-    margin-left: 10%
-}
-
-.right2>div{
-    justify-content: start;
-   text-align: start;
-   margin-top: 5%;
-   font-size: 20px;
-   font-weight: 500;
-}
-
-
-.consultnow{
-    /* border: 2px solid red !important; */
-float: left;
- background-color: #14BEF0;
- color: white;
- border: none;
- border-radius: 5px;
- font-size: 20px;
- width: 100%;
- padding: 4px 50px;
- margin-top: 7%;
-}
-
-
-@media (max-width:480px)  {
-    
-    .main{
-        margin: auto;
-        border: 1px solid  transparent;
-        height: 600px;
-        width: 150%;
-        background-image:url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
-    }
-
-
-    .another{
- 
-        height: 400px;
-       width: 150%;
-        background-color: #F0F0F5;
-        /* display: table-row; */
-        /* justify-content: center; */
-/* 
-        border: 1px solid red; */
-        text-align: center;
-       
-    }
-
-    .safe{
-        font-size: 40px;
-        font-weight: 500;
-        display: inline;
-        color: #414146;
-        /* line-height: 10%; */
-        text-align: start;
-      
-    }
-
-
-    .certi{
-    
-        /* text-align: start; */
-        justify-content: center;
-        margin: auto;
-        width: 150%;
-        display: flex;
-        background-color: #F0F0F5;
-    
-       
-    }
-
-
-    .certi>div{
-        width: 150%;
-        /* justify-content: center; */
-     align-items: center;
-     background-color: #F0F0F5;
-     
-    }
-
-
-
-    
-.consult{
+  .consult {
     /* border: 1px solid red; */
     height: 700px;
     width: 150%;
-    background-color: #F0F0F5;
+    background-color: #f0f0f5;
     display: flex;
     /* border: 1px solid red; */
     flex-direction: row;
+  }
 
-}
-
-
-.left2{
+  .left2 {
     margin-left: 30%;
     margin-top: 5%;
-}
+  }
 
-.right2{
+  .right2 {
     /* border: 1px solid red; */
     /* width: 20%; */
-  display: none;
-}
-
+    display: none;
   }
-  @media (max-width:720px)  {
-    
+}
+@media (max-width: 720px) {
+  .safe {
+    font-size: 40px;
+    font-weight: 500;
+    display: inline;
+    color: #414146;
+    /* line-height: 10%; */
+    text-align: start;
+  }
 
-    .safe{
-        font-size: 40px;
-        font-weight: 500;
-        display: inline;
-        color: #414146;
-        /* line-height: 10%; */
-        text-align: start;
-      
-    }
-
-
-
-.right2{
+  .right2 {
     /* border: 1px solid red; */
     width: 20%;
     margin-top: 5%;
     margin-left: 10%;
     text-align: start;
-    
-}
+  }
 
+  .main {
+    margin: auto;
+    border: 1px solid transparent;
+    height: 600px;
+    width: 150%;
+    background-image: url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
+  }
 
-    
-    
-    .main{
-        margin: auto;
-        border: 1px solid  transparent;
-        height: 600px;
-        width: 150%;
-        background-image:url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
-    }
-
-
-    .another{
- 
-        height: 400px;
-       width: 150%;
-        background-color: #F0F0F5;
-        /* display: table-row; */
-        /* justify-content: center; */
-/* 
+  .another {
+    height: 400px;
+    width: 150%;
+    background-color: #f0f0f5;
+    /* display: table-row; */
+    /* justify-content: center; */
+    /* 
         border: 1px solid red; */
-        text-align: center;
-       
-    }
+    text-align: center;
+  }
 
-    .certi>div{
-        width: 5%;
-        justify-content: center;
-     align-items: center;
-     background-color: #F0F0F5;
-     
-    }
+  .certi > div {
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f5;
+  }
 
-    .consultnow{
-        /* float: left; */
-         background-color: #14BEF0;
-         color: white;
-         border: none;
-         border-radius: 5px;
-         font-size: 30px;
-         width: 100%;
-         padding: 10px 50px;
-         margin-top: 7%;
+  .consultnow {
+    /* float: left; */
+    background-color: #14bef0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px 50px;
+    margin-top: 7%;
+  }
 
-        }
+  .certi {
+    /* text-align: start; */
+    justify-content: center;
+    margin: auto;
+    width: 150%;
+    display: flex;
+    background-color: #f0f0f5;
+  }
 
+  .certi > div {
+    width: 150%;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #f0f0f5;
+  }
 
-    .certi{
-    
-        /* text-align: start; */
-        justify-content: center;
-        margin: auto;
-        width: 150%;
-        display: flex;
-        background-color: #F0F0F5;
-    
-       
-    }
-
-
-    .certi>div{
-        width: 150%;
-        /* justify-content: center; */
-     align-items: center;
-     background-color: #F0F0F5;
-     
-    }
-
-
-
-    
-.consult{
+  .consult {
     /* border: 1px solid red; */
     height: 700px;
     width: 150%;
-    background-color: #F0F0F5;
+    background-color: #f0f0f5;
     display: flex;
     /* border: 1px solid red; */
     flex-direction: row;
-
-}
-
-
-.left2{
-    margin-left: 30%;
-    margin-top: 5%;
-}
-
-.right2{
-    /* border: 1px solid red; */
-    /* width: 20%; */
-  display: none;
-}
-
-
-    
-    
-
   }
 
+  .left2 {
+    margin-left: 30%;
+    margin-top: 5%;
+  }
 
-
-
-
-
-
-
-
-
-
+  .right2 {
+    /* border: 1px solid red; */
+    /* width: 20%; */
+    display: none;
+  }
+}

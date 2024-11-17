@@ -25,10 +25,16 @@ const Navbar = () => {
     <nav className={styles.nav}>
       <Link to={"/"}>
         <div className={styles.logo}>
-          <img
+          <p
+            className={styles.smartHealth}
+            style={{ fontFamily: "Poppins, sans-serif" }}
+          >
+            Smart Health
+          </p>
+          {/* <img
             src="https://www.practo.com/nav/9.5.5/consumer/images/practo.svg"
             alt="logo"
-          />
+          /> */}
         </div>
       </Link>
       <div className={styles.left}>

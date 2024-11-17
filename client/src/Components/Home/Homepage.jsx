@@ -26,7 +26,7 @@ const Homepage = () => {
       <div className={styles.covid}>
         <div className={styles.covidhead}>
           <h2 style={{ color: "white" }}>
-            How Practo is Helping India Fight COVID-19
+            How Smart Health is Helping India Fight Several Diseases
           </h2>
         </div>
         <div className={styles.coviddoctor}>
@@ -127,7 +127,7 @@ const Homepage = () => {
               src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"
               alt="img"
             ></img>
-            <h3>Dentist</h3>
+            <h3 className="fw-bold fst-italic">Dentist</h3>
             <p>Teething troubles? Schedule a dental checkup</p>
           </div>
           <div className={styles.consultspecial}>
@@ -135,7 +135,7 @@ const Homepage = () => {
               src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gynecologist@2x.jpg"
               alt="img"
             ></img>
-            <h3>Gynecologist/Obstetrician</h3>
+            <h3 className="fw-bold fst-italic">Gynecologist/Obstetrician</h3>
             <p>
               Explore for women's health,pregnancy and infertility treatments
             </p>
@@ -145,7 +145,7 @@ const Homepage = () => {
               src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dietitian@2x.jpg"
               alt="img"
             ></img>
-            <h3>Dietitian/Nutrition</h3>
+            <h3 className="fw-bold fst-italic">Dietitian/Nutrition</h3>
             <p>
               Get guidance on eating right,weight management and sports
               nutrition
@@ -156,7 +156,7 @@ const Homepage = () => {
               src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-physiotherapist@2x.jpg"
               alt="img"
             ></img>
-            <h3>Physiotherapist</h3>
+            <h3 className="fw-bold fst-italic">Physiotherapist</h3>
             <p>Pulled a muscle? Get it treated by a trained physiotherapist</p>
           </div>
         </div>
@@ -200,7 +200,7 @@ const Homepage = () => {
           ></img>
         </div>
         <div className={styles.download}>
-          <h1>Download the Practo app</h1>
+          <h1>Download the SmartHealth app</h1>
           <p>
             Access video consultation with India’s top doctors on the Practo
             app. Connect with doctors online, available 24/7, from the comfort

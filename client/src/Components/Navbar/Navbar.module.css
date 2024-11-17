@@ -114,3 +114,36 @@
     text-align: left !important;
   }
 }
+.smartHealth {
+  padding: 0px 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #0260ee, #16bae4, #1997eb, #3c7edb);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  animation: gradient-flow 3s ease-in-out infinite;
+  /* glow 1.5s ease-in-out infinite alternate; */
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px rgba(0, 102, 255, 0.6), 0 0 10px rgba(0, 204, 255, 0.4);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(0, 153, 255, 0.8), 0 0 30px rgba(0, 85, 204, 0.6);
+  }
+}

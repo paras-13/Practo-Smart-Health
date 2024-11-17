@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import style from "./Find.module.css";
-import Snackbar from '@material-ui/core/Snackbar';
-import Alert from '@material-ui/lab/Alert'
-export default function Finddoctors () {
+import Snackbar from "@material-ui/core/Snackbar";
+import Alert from "@material-ui/lab/Alert";
+export default function Finddoctors() {
   return (
     <>
       <div className={style.main}>
-        <h1
-          className={style.name1}
-        >Your home for health</h1>
+        <h1 className={style.name1}>Your home for health</h1>
         <div>
           <h4 className={style.name1}>Find and book</h4>
           <div className={style.searchbox}>
@@ -27,15 +25,14 @@ export default function Finddoctors () {
             />
           </div>
           <div className={style.searchLink}>
-                <span className="mx-4">Speciality:</span>
-                <span className="mx-4">Dermatologist</span>
-                <span className="mx-4">Pediatrician</span>
-                <span className="mx-4">Dentist</span>
-                <span className="mx-4">General physician</span>
-                <span className="mx-4">ENT</span>
-                <span className="mx-4">Gynecologist</span>
+            <span className="mx-4">Speciality:</span>
+            <span className="mx-4">Dermatologist</span>
+            <span className="mx-4">Pediatrician</span>
+            <span className="mx-4">Dentist</span>
+            <span className="mx-4">General physician</span>
+            <span className="mx-4">ENT</span>
+            <span className="mx-4">Gynecologist</span>
           </div>
-
         </div>
 
         <div className={style.down}></div>
@@ -43,68 +40,82 @@ export default function Finddoctors () {
       <div>
         <div className={style.another}>
           <div className={style.left}>
-            <h2 class={style.safe}>Safety of your data is our</h2>
-            <h2 class={style.toppri}>top priority</h2>
+            <h2 class={style.safe}>
+              Safety of your data is our <strong>Top Priority</strong>
+            </h2>
             <div class="c-list-item">
-              <div>
-                <span>Multi-level security checks</span>
-              </div>
-            </div>
-            <div class="c-list-item">
-              <div>
-                <i class="fa-regular fa-circle-check"></i>
-                <span>Multiple data backups</span>
-              </div>
-            </div>
-            <div class="c-list-item">
-              <div>
-                <i class="c-list-item__icon icon-ic_done_open_system"></i>
-                <span>Stringent data privacy policies</span>
-              </div>
+              <ul>
+                <div>
+                  <i className="c-list-item__icon icon-ic_done_open_system"></i>
+                  <a>Multi-level security checks</a>
+                </div>
+                <div>
+                  <i className="c-list-item__icon icon-ic_done_open_system"></i>
+                  <a>Multiple data backups</a>
+                </div>
+                <div>
+                  <i className="c-list-item__icon icon-ic_done_open_system"></i>
+                  <a>Stringent data privacy policies</a>
+                </div>
+              </ul>
+              <button className="btn btn-primary w-25">Read More </button>
             </div>
           </div>
           <div className={style.right}>
             <img
               src="https://www.practostatic.com/web-assets/home/assets/images/security_1.4f45ac92aba979dac915f864df632d90.png"
               alt=""
+              width="250px;"
             />
           </div>
         </div>
-        <div className={style.certi}>
-          {/* <div className={style.inside}> */}
-          <div class="c-certificate">
-            <div className={style.image}>
-              <img 
-                src="//www.practostatic.com/web-assets/home/assets/images/security_2.654a7085bfa74c726f26b64edaafd9a5.png" alt="img"/>
+        <div style={{ backgroundColor: "#f0f0f5" }}>
+          <div className={style.certi}>
+            <div class="c-certificate">
+              <div className={style.image}>
+                <img
+                  src="https://www.practostatic.com/web-assets/home/assets/images/security_2.654a7085bfa74c726f26b64edaafd9a5.png"
+                  alt="img"
+                />
+              </div>
+              <p class="u-t-large">256-bit</p>
+              <p class="u-t-small">encryption</p>
             </div>
-            <p class="u-t-large">256-bit</p>
-            <p class="u-t-small">encryption</p>
-          </div>
-          <div class="c-certificate">
-            <div className={style.image}>
-              <img src="//www.practostatic.com/web-assets/home/assets/images/security_3.a73921ca6e980ed186518d7cb0ce64bf.png" alt="img"/>
+            <div class="c-certificate">
+              <div className={style.image}>
+                <img
+                  src="https://www.practostatic.com/web-assets/home/assets/images/security_3.a73921ca6e980ed186518d7cb0ce64bf.png"
+                  alt="img"
+                />
+              </div>
+              <div class="c-certificate__info">
+                <p class="u-t-large">ISO 27001</p>
+                <p class="u-t-small">certified</p>
+              </div>
             </div>
-            <div class="c-certificate__info">
-              <p class="u-t-large">ISO 27001</p>
-              <p class="u-t-small">certified</p>
+            <div class="c-certificate">
+              <div className={style.image}>
+                <img
+                  src="https://www.practostatic.com/web-assets/home/assets/images/security_4.216e25d35038f0e7f6d8a514727fa67a.png"
+                  alt="img"
+                />
+              </div>
+              <div class="c-certificate__info">
+                <p class="u-t-large">HIPAA</p>
+                <p class="u-t-small">compliant data centers</p>
+              </div>
             </div>
-          </div>
-          <div class="c-certificate">
-            <div className={style.image}>
-              <img src="//www.practostatic.com/web-assets/home/assets/images/security_4.216e25d35038f0e7f6d8a514727fa67a.png" alt="img"/>
-            </div>
-            <div class="c-certificate__info">
-              <p class="u-t-large">HIPAA</p>
-              <p class="u-t-small">compliant data centers</p>
-            </div>
-          </div>
-          <div class="c-certificate">
-            <div className={style.image}>
-              <img src="//www.practostatic.com/web-assets/home/assets/images/security_5.cf6e04c57178071a67c219b43066ffcf.png" alt="img"/>
-            </div>
-            <div class="c-certificate__info">
-              <p class="u-t-large">DSCI</p>
-              <p class="u-t-small">member</p>
+            <div class="c-certificate">
+              <div className={style.image}>
+                <img
+                  src="https://www.practostatic.com/web-assets/home/assets/images/security_5.cf6e04c57178071a67c219b43066ffcf.png"
+                  alt="img"
+                />
+              </div>
+              <div class="c-certificate__info">
+                <p class="u-t-large">DSCI</p>
+                <p class="u-t-small">member</p>
+              </div>
             </div>
           </div>
         </div>
@@ -113,7 +124,7 @@ export default function Finddoctors () {
         <div class={style.left2}>
           <video
             class="rh5v-DefaultPlayer_video"
-            poster="//www.practostatic.com/web-assets/home/assets/images/consult.15f1b416f3f4c9383b780757d7293d00.png"
+            poster="https://www.practostatic.com/web-assets/home/assets/images/consult.15f1b416f3f4c9383b780757d7293d00.png"
             width="250"
             height="480"
             loading="false"
@@ -127,40 +138,44 @@ export default function Finddoctors () {
           </video>
         </div>
         <div className={style.right2}>
-          <h2 class={style.safe}>Skip the waiting room.</h2>
-          <h2 class={style.toppri}>Consult with a doctor</h2>
-          <div class="c-list-item">
+          <h2 style={{ fontFamily: "Poppins, sans-serif" }}>
+            Skip the waiting room <br></br>
+            <strong>Consult with a doctor</strong>
+          </h2>
+          <ul>
             <div>
-              <span>
+              <i className="c-list-item__icon icon-ic_done_open_system"></i>
+              <a className="fs-5">
                 Fees starting at <strong>₹99</strong>
-              </span>
+              </a>
             </div>
-          </div>
-          <div class="c-list-item">
             <div>
-              <i class="fa-regular fa-circle-check"></i>
-              <span>
+              <i className="c-list-item__icon icon-ic_done_open_system"></i>
+              <a className="fs-5">
                 Verified doctors respond in <strong>5 minutes</strong>
-              </span>
+              </a>
             </div>
-          </div>
-          <div class="c-list-item">
             <div>
-              <i class="c-list-item__icon icon-ic_done_open_system"></i>
-              <span>100% Private and confidential</span>
+              <i className="c-list-item__icon icon-ic_done_open_system"></i>
+              <a className="fs-5">100% Private and confidential</a>
             </div>
-          </div>
-          <Link to={"#"}>
-            <button className={style.consultnow}>Consult Now</button>{" "}
+          </ul>
+          <Link to={"/findDoctors"}>
+            <button className="btn btn-primary w-50 mx-5">Consult Now</button>{" "}
           </Link>
+          <i class="icon-ic_star_solid icon-star"></i>
+          <i class="icon-ic_star_solid icon-star"></i>
+          <i class="icon-ic_star_solid icon-star"></i>
+          <i class="icon-ic_star_solid icon-star"></i>
         </div>
         <div></div>
       </div>
-      <Snackbar open={true} autoHideDuration={10000}>
+      <Snackbar open={true} autoHideDuration={1000}>
         <Alert severity="info">
-          Hey! I have got your location, I'm using a free API so sometimes the location might not populate in the left part of the search bar.
+          Hey! I have got your location, I'm using a free API so sometimes the
+          location might not populate in the left part of the search bar.
         </Alert>
       </Snackbar>
     </>
   );
-};
+}

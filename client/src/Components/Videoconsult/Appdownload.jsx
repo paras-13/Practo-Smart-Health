@@ -14,7 +14,7 @@ const Appdownload = () => {
             />
           </figure>
           <div className={style.content} id="downloadsub2">
-            <h2 className={style.head}>Download the Practo app</h2>
+            <h2 className={style.head}>Download the SmartHealth app</h2>
             <p className={style.desc}>
               Book appointments, Order health products, Consult with a doctor
               online, Book health chekups, store health records & read health
